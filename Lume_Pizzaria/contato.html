@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Lume Pizzaria</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/contato.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <img src="src/assets/img/logo-lume-white.png" alt="Logo Lume Pizzaria" class="logo">
+
+    <nav class="navbar">
+      <a class="nav-link" href="lume.html">Home</a>
+      <a class="nav-link" href="cardapio.html">Cardápio</a>
+      <a class="nav-link" href="contato.html">Contato</a>
+
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="contato-container">
+    <h1>Fale Conosco</h1>
+    <p>Entre em contato conosco para fazer pedidos, tirar dúvidas ou enviar sugestões!</p>
+
+    <div class="contato-conteudo">
+      <!-- Formulário -->
+      <form class="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <!-- Informações -->
+      <div class="info-contato">
+        <h2>Informações de Contato</h2>
+        <p><strong>Email:</strong> lume.yourpizza@gmail.com</p>
+        <p><strong>Telefone:</strong> (11) 91234-5678</p>
+
+      </div>
+    </div>
+  </main>
+
+<a href="https://wa.me/5511912345678" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Fale conosco no WhatsApp">
+  <img src="/src/assets/img/Whatsapp.png" alt="WhatsApp">
+</a>
+
+</body>
+</html>
